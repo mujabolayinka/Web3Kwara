@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+.first{
+    min-height: 100vh;
+    background-image: url(./Images/Background\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 50px;
+}
+.nav1 img{
+    height: 12vh;
+    width: 12vw;
+}
+.Login button{
+    background-color: rgb(250, 164, 4);
+    padding: 7px 10px;
+    color: white;
+    border: none;
+}
+.event ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: white;
+}
+.Register button{
+    background-color: rgb(250, 164, 4);
+    padding: 10px 15px;
+    color: white;
+    border: none;
+}
+.web3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+.summit h1{
+    font-size: xx-large;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Inviting h3{
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.header{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstdiv{
+    background-color: rgb(231, 215, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.seconddiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.thirddiv h1{
+    font-size: xx-large;
+}
+.fourthdiv h4{
+    width: 31vw;
+    color: rgb(56, 54, 54);
+}
+.fifth img{
+    height: 50vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.third{
+    background-color: white;
+    padding-bottom: 90px;
+}
+.upcoming{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.block{
+    display: flex;
+    gap: 15px;
+}
+.rec13 img{
+    height: 40vh;
+}
+.rec14 img{
+    height: 40vh;
+}
+.rec15 img {
+    height: 40vh;
+}
+.container{
+    background-color: white;
+    box-shadow: 0 0 2px black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+.chain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.chain h6{
+    width: 15vw;
+    line-height: 15px;
+}
+
+.vessle{
+    background-color: white;
+    box-shadow: 0 0 2px black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.intro h6{
+    width: 15vw;
+    line-height: 15px;
+}
+.drum{
+    background-color: white;
+    box-shadow: 0 0 2px black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+.people{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.people h6{
+    width: 15vw;
+    line-height: 15px;
+}
+.block h6{
+    color: rgb(116, 110, 110);
+}
+.eventt{
+    margin-top: 50px;
+    font-size: large;
+}
+.fourth{
+    background-color:  rgb(231, 215, 218);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+.orga h2{
+    margin-top: 50px;
+    text-align: center;
+}
+.ellipse11, .lastdiv {
+    display: flex;
+    gap: 100px;
+    line-height: 20px;
+}
+.ys{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.js{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.lastdiv img, .ellipse11 img{
+    height: 30vh;
+}
+.vector img, .tosh img, .jam img{
+    height: 3vh;
+}
+.found{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.fifth{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.thanks {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.nice h6{
+    width: 26vw;
+    font-size: smaller;
+}
+.Visiting{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Visiting h2{
+    font-size: x-large;
+    color: rgb(12, 9, 9);
+}
+.visitimage img{
+    height: 45vh;
+}
+.send button{
+    padding:15px 30px 15px 30px;
+    background-color: rgb(245, 161, 5);
+    color: white;
+    border: none;
+}
+.sixth{
+    background-color: rgb(228, 230, 231);
+}
+.follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.follow img{
+    height: 3vh;
+}
+.followus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.member ul{
+    line-height: 30px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 950px){
+
+.firstdiv{
+    flex-direction: column;
+ }
+.visitimage img{
+     width: 20vw;
+}
+.header{
+     display: none;
+    }
+.logo img{
+  width: 50vw;  
+}
+.summit h1{
+    width: 60vw;
+    font-size: 45px;
+}
+.Register button{
+    font-size: 35px;
+}
+.web3{
+    gap: 70px;
+}
+.seconddiv{
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.thirddiv h1{
+    font-size: 50px;
+}
+.fourthdiv h4{
+    width: 80vw;
+    font-size: 25px;
+    line-height: 35px;
+}
+.firstdiv{
+    gap: 5px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+.fifth img{
+    height: 43vh;
+    width: 90vw;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rec13 img{
+    width: 70vw;
+    height: 40vw;
+}
+.rec14 img{
+    width: 70vw;
+    height: 40vw;
+}
+.rec15 img{
+    width: 70vw;
+    height: 40vw;
+}
+.chain h6, .intro h6, .people h6{
+    width: 70vw;
+    font-size: large;
+    line-height: 22px;
+}
+.upcoming{
+    gap: 40px;
+}
+.ellipse11, .lastdiv{
+    display: flex;
+    flex-direction: column;
+}
+.src img,.src1 img, .src2 img{
+    height: 25vh;
+}
+.ys h4, .ys h6, .ms h4, .ms h6, .js h4, .js h6{
+    font-size: large;
+    line-height: 25px;
+}
+.thanks{
+    display: flex;
+    flex-direction: column;
+}
+.Visiting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Visiting h2{
+    font-size: xx-large;
+}
+.nice h6{
+    width: 75vw;
+    font-size: 20px;
+    color: rgb(54, 52, 52);
+    
+}
+.send button{
+    padding: 20px 20px;
+}
+.send h6{
+    font-size: large;
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.member ul, .follow h3{
+    font-size: larger;
+    text-align: center;
+}
+}
